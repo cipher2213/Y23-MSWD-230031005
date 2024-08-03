@@ -1,0 +1,12 @@
+footer {
+    padding: 10px 20px;
+    background-color: #333; /* Dark background for the footer */
+    color: white; /* White text color */
+    text-align: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  footer h5 {
+    margin: 0;
+  }
+  

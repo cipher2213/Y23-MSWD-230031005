@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f8ff; /* Alice Blue background */
+    color: #333;
+  }
+  
+  .dark-mode {
+    background-color: #121212; /* Dark mode background */
+    color: #e0e0e0; /* Light text for dark mode */
+  }
+  
+  .header {
+    background-color: #3498db; /* Blue header */
+    color: #fff;
+  }
+  
+  .footer {
+    background-color: #e74c3c; /* Red footer */
+    color: #fff;
+  }
+  
+  .map-container {
+    width: 100%;
+    height: 500px;
+    margin: 20px 0;
+  }
+  
+  .notifications {
+    background-color: #f39c12; /* Yellow background for notifications */
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth effect */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Glow effect */
+  }
+  
+  section {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+  }
+  
